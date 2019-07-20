@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 14px;
+	font-family: arial, verdana, san-serif;
+}
+
+.border{
+	border:1px solid #c00;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+img{
+	max-width: 100%;
+}
+
+.header{
+	padding: 10px 0;
+}
+
+.logo{
+	float: left;
+}
+.nav{
+	float: right;
+	margin-top:15px;
+
+}
+.clear{
+	clear: both;
+}
+.nav li{
+	display: inline;
+
+}
+.nav li a{
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #39464f;
+	font-weight: bold;
+}
+
+.nav li a:hover{
+	color: #3bb375;
+
+}
+@font-face {
+	font-family: 'Conv_Prisma';
+	src: url('../fonts/Prisma.eot');
+	src: url('../fonts/Prisma.woff'), url('../fonts/Prisma.ttf'), url('../fonts/Prisma.svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.slider{
+	background-image: url(../images/slider.jpg);
+	min-height: 400px;
+	/*parallax effect
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;*/
+
+	text-align: center;
+	color: #fff;
+	font-family: 'Conv_Prisma';
+	font-size: 36px;
+}
+.slider h1{
+	
+	padding-top:6%; 
+
+}
+
+.bg_green{
+	background-color: #3bb375;
+	padding: 10px;
+
+}
+.col-1{
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 10px;
+
+}
+
+.welcome{
+	background-color: #d7dee3;
+	text-align: center;
+	padding: 20px 0;
+}
+.welcome h2{
+	font-size: 26px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+.welcome p{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.col-4{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.green-color{
+	color: #3bb375;
+}
+.welcome p{
+	font-size: 12px;
+	text-transform: capitalize;
+}
+.welcome h4{
+	line-height: 28px;
+}
+
+
+
