@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>position</title>
+	<style>
+		.main{
+			width:500px;
+			background-color: #ccc;
+			height: 1000px;
+			
+		}
+		.box1{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			position: absolute;
+			z-index: 1;
+
+		}
+		.box2{
+			width: 200px;
+			height: 200px;
+			background-color: green;
+			position: absolute;
+			left: 50px;
+			top:100px;
+			z-index: 2;
+		}
+		.box3{
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			position: absolute;
+			left: 100px;
+			top:150px;
+			z-index: 1;
+		}
+	</style>
+</head>
+<body>
+
+<div class="main">
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</div>
+
+
+</body>
+</html>
