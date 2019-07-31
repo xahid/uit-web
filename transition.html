@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			transition-property:all ;
+			transition-duration: 2s;			
+			/*transition:all 1s ease;*/
+			width: 200px;
+			height: 20px;
+			background-color: red;
+			margin: 2px 0;
+		}
+		.ease{
+			transition-timing-function: ease;
+		}
+		.easein{
+			transition-timing-function: ease-in;
+		}
+		.easeout{
+			transition-timing-function: cubic-bezier(0,1.46,.93,-0.71);
+		}
+
+		.box:hover{
+			width: 500px;
+			background-color: green;
+		}
+		
+	</style>
+</head>
+<body>
+
+<div class="box ease"></div>
+<div class="box easein"></div>
+<div class="box easeout"></div>
+
+
+
+</body>
+</html>
