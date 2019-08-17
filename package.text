@@ -1,0 +1,18 @@
+Install Package Control
+1. https://packagecontrol.io/installation(Copy code for sublime Text 3)  
+2. Go to View Menu -> Console -> paste -> Enter
+3. restart sublime
+4. preference->package control->install package>enter
+& Install following packages:
+a.DayRees color scheme (bg color theme)
+b.Emmet (Any file Open with sublime/ table>tr*5>td*2>input[type="text"]>ctrl+E)
+c.Bracket Highlighter (collapse tag / bracket)
+d.sidebar enhancements (file menu ->open folder->right clik any file in sidebar)
+e.sublime code intel (code intelligence and smart autocomplete)
+f. sublimelint (error highlighting)
+g. html5 
+h. css3
+
+
+
+	
