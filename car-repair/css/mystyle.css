@@ -1,0 +1,60 @@
+img, iframe, embed{
+	max-width: 100%;
+}
+.bg_primary{
+	background-color:#2A2A72 ;
+}
+.bg_secondary{
+	background-color:#FFAA02 ;
+}
+.text_primary{
+color:#2A2A72 ;
+}
+.text_secondary{
+color:#FFAA02 ;
+}
+.top_header{
+	background-color: #050609;
+	color: #fff;
+}
+
+
+ .icon::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f025";
+    font-size: 2.5rem;
+    color: #FFAA02;
+
+  }
+
+.navbar-light .navbar-nav .nav-link{
+  	color: #fff;
+  	text-transform: uppercase;
+  	padding-left:15px;
+  	padding-right: 15px; 
+  }
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #FFAA02;
+}
+
+.services, .team, .blog{
+	background-color: #FBF5F3 !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+} 
+.testimonials{
+	background: url('../images/parallax.png') no-repeat center fixed;
+	background-size: cover;
+	height: 500px;
+}
+
+.footer{
+	background-color: #050609 !important;
+	color: #a3a3a3;
+	padding: 50px 0;
+}
+
+
+.my_button{
+	border: 0;
+	color: #fff;
+}
