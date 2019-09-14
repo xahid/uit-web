@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		full_date=new Date();
+
+
+		day=full_date.getDay();
+		date=full_date.getDate();
+		month=full_date.getMonth();
+		month+=1;
+		year=full_date.getFullYear();
+		hour=full_date.getHours();
+		min=full_date.getMinutes();
+		sec=full_date.getSeconds();
+
+days=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+		document.write(days[day] +date+'/'+month+'/'+year+' '+ hour+':'+ min+':'+sec);
+	</script>
+	
+</body>
+</html>
