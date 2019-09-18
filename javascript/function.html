@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1 id="abc"></h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<script type="text/javascript">
+
+		function mydate(){
+
+		full_date=new Date();
+
+		day=full_date.getDay();
+		date=full_date.getDate();
+		month=full_date.getMonth();
+		month+=1;
+		year=full_date.getFullYear();
+		hour=full_date.getHours();
+		min=full_date.getMinutes();
+		sec=full_date.getSeconds();
+
+days=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+document.write(days[day] +date+'/'+month+'/'+year+' '+ hour+':'+ min+':'+sec);
+
+		}
+
+			//mydate();
+
+		
+	function add_numbers(number1, number2){
+
+		add = number1+number2
+
+		document.write(add);
+
+		return add;
+
+	}		
+
+	
+
+	
+document.getElementById('abc').innerHTML=add_numbers(15,5);
+
+
+function welcome(name){
+	document.write("Welcome " + name);
+}
+
+
+//name=prompt("Your Name");
+
+//welcome(name);
+
+
+
+
+	</script>
+	
+</body>
+</html>

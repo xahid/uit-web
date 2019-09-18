@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<form action="" method="post" onsubmit="return validate();">
+		<input type="text" name="name" id="myname">
+		<input type="email" name="email" id="myemail">
+		<input type="submit" name="btn" value="Submit">
+	</form>
+<script type="text/javascript">
+function validate() { 
+
+
+	 if (document.getElementById("myname").value.length === 0) { 
+	 	alert("Please enter your name"); 
+	 	return false; 
+	 }
+
+	 if (document.getElementById("myemail").value.length === 0) { 
+	 	alert("Please enter your email"); 
+	 	return false; 
+	 }
+	 
+	 } 
+</script>
+
+
+	
+</body>
+</html>
