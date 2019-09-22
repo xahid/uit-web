@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		.box{
+			height: 100px; 
+			width: 100px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="box"></div>
+	
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('.box').click(function(){
+
+			$(this).animate({"margin-top":"100px"});
+			$(this).animate({"margin-left":"100px"});
+			$(this).animate({"margin-top":"0"});
+			$(this).animate({"margin-left":"0"});	
+
+
+
+
+
+			});
+
+
+		});
+
+	</script>
+</body>
+</html>

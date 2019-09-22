@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style>
+		.main{
+			width: 800px;
+			margin: 0 auto
+			border: 1px solid #ccc;
+		}
+
+	</style>
+</head>
+<body>
+
+<div class="main">
+	<img src="images/1.png" alt="" id="img1">
+	<img src="images/2.png" alt="" id="img2">
+	<img src="images/3.png" alt="" id="img3">
+
+	<button type="button" id="b1">IMG 1</button>
+	<button type="button" id="b2">IMG 2</button>
+	<button type="button" id="b3">IMG 3</button>
+</div>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+
+	$(document).ready(function(){
+
+		$('#img2').hide();
+		$('#img3').hide();
+
+		$('#b1').click(function(){
+			$('#img1').show();
+			$('#img2').hide();
+			$('#img3').hide();	
+		});
+
+		$('#b2').click(function(){
+			$('#img2').show();
+			$('#img1').hide();
+			$('#img3').hide();	
+		});
+
+		$('#b3').click(function(){
+			$('#img3').show();
+			$('#img1').hide();
+			$('#img2').hide();	
+		});
+	});
+	
+
+
+
+</script>
+
+	
+</body>
+</html>

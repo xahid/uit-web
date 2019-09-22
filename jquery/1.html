@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	
+</head>
+<body>
+<button type="button" id="hide">Hide</button>
+<button type="button" id="show">Show</button>
+<button type="button" id="toggle">Toggle</button>
+	
+	<h1 class="heading">Heading</h1>
+	<p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+
+	<p id="para">paragraph 2 paragraph 2 paragraph 2</p>
+
+	<p id="para">paragraph 3 paragraph 3 paragraph 3</p>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+/* 
+Multi line comment
+.....
+*/
+//Signle line comment
+
+	$(document).ready(function(){
+
+		//Effect 1
+		$('h1').click(function(){
+
+			$('p').hide('slow');
+		});
+
+
+
+
+		//Effect 2
+		$('p').click(function(){
+
+			$(this).hide(1000);
+
+		});
+
+
+		//Effect 3
+		$('#hide').click(function(){
+
+			$('h1').hide('slow');
+		});
+
+		$('#show').click(function(){
+
+			$('h1').show('slow');
+		});
+
+		$('#toggle').click(function(){
+
+			$('h1').toggle('slow');
+		});
+
+
+	});
+
+
+
+
+</script>
+
+
+	
+</body>
+</html>

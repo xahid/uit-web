@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style type="text/css" media="screen">
+		.box{
+			width: 300px;
+			height: 300px;
+			background-color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+<div class="box"></div>
+<button type="button" id="slideup">Slide Up</button>
+<button type="button" id="slidedown">Login</button>
+<button type="button" id="slidetoggle">Slide Toggle</button>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+	
+	$(document).ready(function(){
+
+		$('.box').slideUp();
+
+		$('#slideup').click(function(){
+
+			$('.box').slideUp();
+		});
+
+		$('#slidedown').click(function(){
+
+			$('.box').slideDown();
+		});
+
+
+		$('#slidetoggle').click(function(){
+
+			$('.box').slideToggle();
+		});
+
+
+
+
+
+	});
+</script>	
+</body>
+</html>
